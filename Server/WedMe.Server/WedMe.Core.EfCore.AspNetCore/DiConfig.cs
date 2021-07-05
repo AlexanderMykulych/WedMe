@@ -1,6 +1,6 @@
 ﻿using System;
 using Autofac;
-using WebMe.Core.Base;
+using WedMe.Core.Base;
 
 namespace WedMe.Core.EfCore.AspNetCore
 {

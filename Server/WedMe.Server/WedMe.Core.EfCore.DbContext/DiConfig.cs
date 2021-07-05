@@ -1,7 +1,7 @@
 using Autofac;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
-using WebMe.Core.Base;
+using WedMe.Core.Base;
 using Autofac.Extensions.DependencyInjection;
 
 namespace WedMe.Core.EfCore.DbContext

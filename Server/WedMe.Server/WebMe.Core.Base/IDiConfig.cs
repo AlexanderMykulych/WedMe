@@ -1,7 +1,7 @@
 ﻿using System;
 using Autofac;
 
-namespace WebMe.Core.Base
+namespace WedMe.Core.Base
 {
     public interface IDiConfig
     {

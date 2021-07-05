@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net5.0</TargetFramework>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="5.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\WedMe.Core.EfCore.AspNetCore\WedMe.Core.EfCore.AspNetCore.csproj" />
+      <ProjectReference Include="..\WedMe.Core.EfCore.DbContext\WedMe.Core.EfCore.DbContext.csproj" />
+      <ProjectReference Include="..\WedMe.Core.Models\WedMe.Core.Models.csproj" />
+    </ItemGroup>
+
+</Project>
