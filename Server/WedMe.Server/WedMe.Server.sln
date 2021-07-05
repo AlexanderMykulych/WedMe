@@ -5,6 +5,16 @@ VisualStudioVersion = 16.0.31402.337
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedMe.Server", "WedMe.Server\WedMe.Server.csproj", "{52C73B4A-C201-413A-9E84-9718649FB21F}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WedMe.Core", "WedMe.Core", "{7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedMe.Core.Models", "WedMe.Core.Models\WedMe.Core.Models.csproj", "{A1E967A8-5B6D-48CD-A33B-1A2C0252B7D2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedMe.Core.EfCore.DbContext", "WedMe.Core.EfCore.DbContext\WedMe.Core.EfCore.DbContext.csproj", "{013430A5-25FF-4F55-A764-933522B95C4D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMe.Core.Base", "WebMe.Core.Base\WebMe.Core.Base.csproj", "{4648551A-D590-4EB8-B556-26291C43B1E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedMe.Core.EfCore.AspNetCore", "WedMe.Core.EfCore.AspNetCore\WedMe.Core.EfCore.AspNetCore.csproj", "{432A73D4-5E5B-4A91-8985-1684A7F82954}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,11 +25,33 @@ Global
 		{52C73B4A-C201-413A-9E84-9718649FB21F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52C73B4A-C201-413A-9E84-9718649FB21F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52C73B4A-C201-413A-9E84-9718649FB21F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1E967A8-5B6D-48CD-A33B-1A2C0252B7D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1E967A8-5B6D-48CD-A33B-1A2C0252B7D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1E967A8-5B6D-48CD-A33B-1A2C0252B7D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1E967A8-5B6D-48CD-A33B-1A2C0252B7D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{013430A5-25FF-4F55-A764-933522B95C4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{013430A5-25FF-4F55-A764-933522B95C4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{013430A5-25FF-4F55-A764-933522B95C4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{013430A5-25FF-4F55-A764-933522B95C4D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4648551A-D590-4EB8-B556-26291C43B1E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4648551A-D590-4EB8-B556-26291C43B1E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4648551A-D590-4EB8-B556-26291C43B1E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4648551A-D590-4EB8-B556-26291C43B1E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{432A73D4-5E5B-4A91-8985-1684A7F82954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432A73D4-5E5B-4A91-8985-1684A7F82954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432A73D4-5E5B-4A91-8985-1684A7F82954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432A73D4-5E5B-4A91-8985-1684A7F82954}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {74FFA890-A2FE-4F8B-A78D-6FD9E6BAD105}
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{013430A5-25FF-4F55-A764-933522B95C4D} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
+		{A1E967A8-5B6D-48CD-A33B-1A2C0252B7D2} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
+		{4648551A-D590-4EB8-B556-26291C43B1E1} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
+		{432A73D4-5E5B-4A91-8985-1684A7F82954} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
 	EndGlobalSection
 EndGlobal
