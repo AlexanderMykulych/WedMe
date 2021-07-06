@@ -13,11 +13,11 @@ namespace WedMe.Configuration.AspNetCore.Base
         public static ContainerBuilder AddWebMe(this ContainerBuilder builder)
         {
             var tempBuilder = new ContainerBuilder();
-            tempBuilder.RegisterAssemblyModules(
+            tempBuilder.RegisterAssemblyTypes(
                 typeof(WedMe.Core.Base.IDiConfig).Assembly,
                 typeof(WedMe.Core.EfCore.AspNetCore.DiConfig).Assembly,
                 typeof(WedMe.Core.EfCore.DbContext.DiConfig).Assembly
-            );
+            ).AsImplementedInterfaces();
             var container = tempBuilder.Build();
             container.Resolve<IList<IDiConfig>>()
                 ?.ToList()

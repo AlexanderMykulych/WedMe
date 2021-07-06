@@ -19,6 +19,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WebMe.Configuration", "WebM
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebMe.Configuration.AspNetCore.Base", "WebMe.Configuration.AspNetCore.Base\WebMe.Configuration.AspNetCore.Base.csproj", "{5F04E366-18AC-4309-A8D8-57D108199DC8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WedMe.Core.HotChocolate", "WedMe.Core.HotChocolate\WedMe.Core.HotChocolate.csproj", "{32BFC380-041D-4D31-A9E7-438933655952}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -49,6 +51,10 @@ Global
 		{5F04E366-18AC-4309-A8D8-57D108199DC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5F04E366-18AC-4309-A8D8-57D108199DC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5F04E366-18AC-4309-A8D8-57D108199DC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32BFC380-041D-4D31-A9E7-438933655952}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32BFC380-041D-4D31-A9E7-438933655952}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32BFC380-041D-4D31-A9E7-438933655952}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32BFC380-041D-4D31-A9E7-438933655952}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -62,5 +68,6 @@ Global
 		{4648551A-D590-4EB8-B556-26291C43B1E1} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
 		{432A73D4-5E5B-4A91-8985-1684A7F82954} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
 		{5F04E366-18AC-4309-A8D8-57D108199DC8} = {422133D2-DCFE-4D56-A8EE-897217F7FFC1}
+		{32BFC380-041D-4D31-A9E7-438933655952} = {7F340246-5A5D-47E2-B7F1-3BAE7BE63B75}
 	EndGlobalSection
 EndGlobal
