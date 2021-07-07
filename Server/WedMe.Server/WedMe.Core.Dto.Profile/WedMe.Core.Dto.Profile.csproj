@@ -2,20 +2,16 @@
 
     <PropertyGroup>
         <TargetFramework>net5.0</TargetFramework>
-        <Nullable>enable</Nullable>
     </PropertyGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\WebMe.Core.Base\WebMe.Core.Base.csproj" />
       <ProjectReference Include="..\WedMe.Core.Dto.Models\WedMe.Core.Dto.Models.csproj" />
-      <ProjectReference Include="..\WedMe.Core.EfCore.DbContext\WedMe.Core.EfCore.DbContext.csproj" />
       <ProjectReference Include="..\WedMe.Core.Models\WedMe.Core.Models.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <PackageReference Include="HotChocolate" Version="11.3.1" />
-      <PackageReference Include="HotChocolate.AspNetCore" Version="11.3.1" />
-      <PackageReference Include="HotChocolate.Data.EntityFramework" Version="11.3.1" />
+      <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
       <PackageReference Include="Microsoft.Extensions.DependencyInjection" Version="5.0.1" />
     </ItemGroup>
 

@@ -9,8 +9,10 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\WedMe.Core.Dto.Profile\WedMe.Core.Dto.Profile.csproj" />
       <ProjectReference Include="..\WedMe.Core.EfCore.AspNetCore\WedMe.Core.EfCore.AspNetCore.csproj" />
       <ProjectReference Include="..\WedMe.Core.EfCore.DbContext\WedMe.Core.EfCore.DbContext.csproj" />
+      <ProjectReference Include="..\WedMe.Core.HotChocolate\WedMe.Core.HotChocolate.csproj" />
       <ProjectReference Include="..\WedMe.Core.Models\WedMe.Core.Models.csproj" />
     </ItemGroup>
 

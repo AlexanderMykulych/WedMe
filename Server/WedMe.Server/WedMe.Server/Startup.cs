@@ -58,6 +58,7 @@ namespace WedMe.Server
 			app.UseEndpoints(endpoints =>
 			{
 				endpoints.MapControllers();
+				endpoints.MapGraphQL();
 			});
 		}
 	}

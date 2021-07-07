@@ -16,4 +16,8 @@
       <ProjectReference Include="..\WedMe.Core.Models\WedMe.Core.Models.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="ModelConfiguration" />
+    </ItemGroup>
+
 </Project>

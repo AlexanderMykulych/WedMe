@@ -25,6 +25,7 @@ namespace WedMe.Server
 				{
 					webBuilder
 						.UseContentRoot(Directory.GetCurrentDirectory())
+						.UseKestrel()
 						.UseStartup<Startup>();
 				});
 	}

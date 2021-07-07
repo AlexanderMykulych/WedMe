@@ -2,10 +2,8 @@ using System;
 
 namespace WedMe.Core.Models
 {
-    public record Contact: BaseEntity 
+    public record Contact (Guid Id): BaseEntity (Id) 
     {
-        public Contact(Guid id) : base(id)
-        {
-        }
+        public string? Name { get; set; }
     }
 }

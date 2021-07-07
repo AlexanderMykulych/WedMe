@@ -11,10 +11,11 @@ namespace WedMe.Core.EfCore.DbContext
         public ContainerBuilder Configurate(ContainerBuilder builder)
         {
             var serviceCollection = new ServiceCollection();
-            serviceCollection.AddDbContextPool<ApplicationDbContext>(contextOptionsBuilder =>
-            {
-                contextOptionsBuilder.UseInMemoryDatabase("Test");
-            });
+            serviceCollection
+                .AddPooledDbContextFactory<ApplicationDbContext>(contextOptionsBuilder =>
+                {
+                    contextOptionsBuilder.UseInMemoryDatabase("Test");
+                });
             builder.Populate(serviceCollection);
             
             return builder;

@@ -12,5 +12,15 @@ namespace WedMe.Core.EfCore.DbContext
 
         public DbSet<Contact> Contacts { get; set; }
         public DbSet<Event> Events { get; set; }
+
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            base.OnModelCreating(modelBuilder);
+            modelBuilder.Entity<BaseEntity>(builder =>
+            {
+                builder.HasOne(e => e.CreatedBy);
+                builder.HasOne(e => e.ModifiedBy);
+            });
+        }
     }
 }
