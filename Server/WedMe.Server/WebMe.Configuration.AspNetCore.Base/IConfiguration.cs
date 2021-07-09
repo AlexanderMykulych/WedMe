@@ -18,7 +18,8 @@ namespace WedMe.Configuration.AspNetCore.Base
                 typeof(WedMe.Core.EfCore.AspNetCore.DiConfig).Assembly,
                 typeof(WedMe.Core.EfCore.DbContext.DiConfig).Assembly,
                 typeof(WedMe.Core.HotChocolate.DiConfig).Assembly,
-                typeof(WedMe.Core.Dto.Profile.DiConfig).Assembly
+                typeof(WedMe.Core.Dto.Profile.DiConfig).Assembly,
+                typeof(WedMe.Core.Dto.Models.Validation.DiConfig).Assembly
             ).AsImplementedInterfaces();
             var container = tempBuilder.Build();
             container.Resolve<IList<IDiConfig>>()
